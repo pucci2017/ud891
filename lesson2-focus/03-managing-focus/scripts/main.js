@@ -20,6 +20,7 @@ page('/:slug', function(context) {
   newPage.classList.add('is-active');
 
 });
+newPage.querySelector('h2').focus();
 
 page({
   hashbang: true
