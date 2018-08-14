@@ -7,8 +7,9 @@ button:focus,
 a:hover,
 a:focus {
   outline: none;
+  background: #E91E63;
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .nav > li > a {
